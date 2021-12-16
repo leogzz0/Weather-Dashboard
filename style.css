@@ -1,0 +1,112 @@
+.custom-navbar {
+    background-color: #222;
+    color: #fff;
+}  
+
+.custom-navbar a {
+    font-size: 4rem;
+    color: #fff;
+} 
+
+.card1 {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 1em;
+}
+
+.card2 {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 1em;
+}
+
+.card3 {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 1em;
+}
+
+.city-el {
+    position: relative;
+    padding: 25px;
+}
+.city-el:hover .city-close {
+    opacity: 1;
+}
+.city-close {
+    position: absolute;
+    color: red;
+    top: 10px;
+    right: 10px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.city-temp {
+    font-size: 32px;
+}
+
+.city-name {
+    font-size: 18px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 51px;
+    width: 51px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: 15rem;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.search-city{
+    padding: 0.8rem;
+}
